@@ -1,0 +1,16 @@
+{
+  "character": "herb_gardener",
+  "frameSize": { "w": 256, "h": 256 },
+  "displayHeightPx": 60,
+  "anchor": { "x": 0.5, "y": 0.96, "note": "feet, bottom-center" },
+  "background": "transparent",
+  "animations": {
+    "idle_front": { "sheet": "frente_parado_spritesheet.png", "frames": 4, "fps": 6, "loop": true }
+  },
+  "planned": {
+    "directions": ["back", "back_side", "side", "front_side", "front"],
+    "idle": { "frames": 6, "fps": 6 },
+    "walk": { "frames": 8, "fps": 10 },
+    "mirror": "side directions are mirrored horizontally for the opposite side"
+  }
+}

@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>Herb Gardener – preview</title>
+<body style="background:#3a4a34;color:#eee;font-family:sans-serif">
+<p>Tamanho do jogo (60 px) e ampliado 4x</p>
+<canvas id="c" width="400" height="260"></canvas>
+<script>
+const FW=256,FH=256,N=4,FPS=6,H=60;
+const img=new Image();img.src="frente_parado_spritesheet.png";
+const ctx=document.getElementById("c").getContext("2d");
+let f=0;img.onload=()=>setInterval(()=>{
+  ctx.clearRect(0,0,400,260);
+  const w=H*FW/FH;
+  ctx.imageSmoothingEnabled=true; ctx.drawImage(img,f*FW,0,FW,FH,20,100,w,H);
+  ctx.imageSmoothingEnabled=false; ctx.drawImage(img,f*FW,0,FW,FH,120,10,w*4,H*4);
+  f=(f+1)%N;},1000/FPS);
+</script>

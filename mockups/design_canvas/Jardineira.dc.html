@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Embervale — Jardineira em sprite</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+@keyframes jplay{from{background-position:0 0}to{background-position:-768px 0}}
+@keyframes jplay96{from{background-position:0 0}to{background-position:-384px 0}}
+</style>
+</helmet>
+<div style="position: relative; width: 1440px; height: 840px; overflow: hidden; background: #17142a; font-family: Verdana, sans-serif; color: #e8dfc8">
+<div style="position:absolute;left:40px;top:26px;display:flex;flex-direction:column;gap:6px"><div style="font-family:Georgia,serif;font-size:34px;font-weight:700;color:#ffcf6a">Jardineira dos Cogumelos — sprite dentro do jogo</div><div style="font-size:15px;color:#b9b0d8">A folha que você enviou (frente, parado, 4 frames) colocada no lugar do personagem no próprio jogo, de dia, na Vila de Embervale. Teste, nada publicado.</div></div><div style="position:absolute;left:40px;top:108px;font-family:Georgia,serif;font-size:20px;font-weight:700;color:#ffd97a">Comparando o tamanho <span style="font-family:Verdana,sans-serif;font-size:13px;font-weight:400;color:#a99fd0">· mesmo lugar, mesma tela</span></div><img src="/_blob/330baf361c70b8b6f5bf45d5de2d5afd" alt="Necromante atual" style="position:absolute;left:40px;top:146px;width:430px;height:284px;border-radius:10px;border:1px solid #4a4170;object-fit:cover"><div style="position:absolute;left:40px;top:436px;font-size:13px;color:#e8dfc8"><b style="color:#ffd97a">Necromante atual</b> · desenho por código, ~90 px</div><img src="/_blob/96f4e279464a89d2fc9aa779c17a836f" alt="Sprite a 60 px" style="position:absolute;left:490px;top:146px;width:430px;height:284px;border-radius:10px;border:1px solid #4a4170;object-fit:cover"><div style="position:absolute;left:490px;top:436px;font-size:13px;color:#e8dfc8"><b style="color:#ffd97a">Sprite a 60 px</b> · tamanho do JSON</div><img src="/_blob/f31b54ab9ee3723c4277532d4d95462a" alt="Sprite a 96 px" style="position:absolute;left:940px;top:146px;width:430px;height:284px;border-radius:10px;border:1px solid #4a4170;object-fit:cover"><div style="position:absolute;left:940px;top:436px;font-size:13px;color:#e8dfc8"><b style="color:#ffd97a">Sprite a 96 px</b> · tamanho do Mago</div><div style="position:absolute;left:40px;top:488px;font-family:Georgia,serif;font-size:20px;font-weight:700;color:#ffd97a">A animação <span style="font-family:Verdana,sans-serif;font-size:13px;font-weight:400;color:#a99fd0">· 4 frames a 6 por segundo, como no JSON</span></div><div style="position:absolute;left:40px;top:528px;width:250px;height:250px;box-sizing:border-box;border-radius:14px;background:#2a2440;border:1px solid #4a4170"></div>
+<div class="jsprite" style="position:absolute;left:49px;top:537px;width:192px;height:192px;background-image:url(/_blob/49740d22340acf3968eb323efcf1d023);background-size:768px 192px;image-rendering:auto;animation:jplay .6667s steps(4) infinite"></div>
+<div style="position:absolute;left:40px;top:784px;width:250px;text-align:center;font-size:12px;color:#a99fd0">ampliada (192 px)</div>
+<div style="position:absolute;left:310px;top:528px;width:250px;height:250px;box-sizing:border-box;border-radius:14px;background:linear-gradient(180deg,#3a6a38,#2b5230);border:1px solid #4a4170"></div>
+<div class="jsprite" style="position:absolute;left:339px;top:587px;width:96px;height:96px;background-image:url(/_blob/49740d22340acf3968eb323efcf1d023);background-size:384px 96px;animation:jplay96 .6667s steps(4) infinite"></div>
+<div style="position:absolute;left:310px;top:784px;width:250px;text-align:center;font-size:12px;color:#a99fd0">tamanho no jogo (96 px)</div><div style="position:absolute;left:600px;top:488px;width:800px;box-sizing:border-box;border-radius:14px;background:#2f2948;border:1px solid #4a4170;padding:18px 22px"><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#7ad07a;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">bom</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Funciona como está.</b> a folha tem fundo transparente, 4 quadros de 256 px e os pés na base. Entrou no jogo sem ajuste, com a sombra desenhada pelo jogo.</div></div><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#e8c84a;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">mudar</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Tamanho.</b> 60 px fica pequeno perto do Mago (96 px) e do Necromante (~90 px), e o rosto some. Recomendo 96 px.</div></div><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#7ad07a;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">bom</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Detalhe.</b> a 96 px o rosto, o poncho e o cajado continuam legíveis. É bem mais rico que o desenho vetorial dos outros dois.</div></div><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#e07a6a;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">atenção</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Estilo.</b> ela vai parecer de outro jogo ao lado do Mago e do Necromante, que são mais lisos. Vale decidir se todos migram para sprites.</div></div><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#e07a6a;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">pendente</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Falta.</b> as outras 4 direções (costas, costas-lado, lado, frente-lado), a caminhada, a corrida, o ataque e a morte. Só existe a frente parada.</div></div><div style="display:flex;gap:10px;margin-bottom:12px"><div style="min-width:70px;height:20px;border-radius:10px;background:#8aa0e8;color:#1a1410;font-size:10.5px;font-weight:700;text-align:center;line-height:20px">depois</div><div style="font-size:13px;line-height:1.45;color:#e8dfc8"><b style="color:#ffd97a">Brilho.</b> à noite, o orbe do cajado e as folhas do chapéu brilhariam por código. Isso ainda não foi aplicado neste teste, que mostra só o dia.</div></div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":840}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

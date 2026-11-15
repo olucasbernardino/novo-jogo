@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Embervale — ficha do Necromante</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1440px; height: 1280px; overflow: hidden; background: #1c1830; font-family: Verdana, sans-serif; color: #e8dfc8">
+<div style="position: absolute; left: 40px; top: 26px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: Georgia, serif; font-size: 34px; font-weight: 700; color: #e0c0ff">Necromante — ficha do novo personagem</div>
+<div style="font-size: 15px; color: #b9b0d8">Estilo atual do Embervale. Olhos, runas e crânio do cajado brilham e iluminam o mapa à noite.</div>
+</div>
+<div style="position: absolute; left: 40px; top: 110px; font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #ffd97a">8 direções <span style="font-family: Verdana, sans-serif; font-size: 13px; font-weight: 400; color: #a99fd0">· 5 desenhadas, 3 espelhadas</span></div>
+<div style="position: absolute; left: 40px; top: 410px; font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #ffd97a">Movimento e reações</div>
+<div style="position: absolute; left: 40px; top: 668px; font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #ffd97a">Magias <span style="font-family: Verdana, sans-serif; font-size: 13px; font-weight: 400; color: #a99fd0">· cada uma com sua animação</span></div>
+<div style="position: absolute; left: 1090px; top: 1000px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 740px; top: 1000px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 390px; top: 1000px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 40px; top: 1000px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 1090px; top: 700px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 740px; top: 700px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 390px; top: 700px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 40px; top: 700px; width: 330px; height: 280px; border-radius: 14px; background: #2f2948; border: 1px solid #4a4170"></div>
+<div style="position: absolute; left: 45px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Sul</div>
+<div style="position: absolute; left: 215px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Sudeste</div>
+<div style="position: absolute; left: 385px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Leste</div>
+<div style="position: absolute; left: 555px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Nordeste</div>
+<div style="position: absolute; left: 725px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Norte</div>
+<div style="position: absolute; left: 895px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Noroeste<br><span style="color: #8a80b0; font-size: 11px">espelhado</span></div>
+<div style="position: absolute; left: 1065px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Oeste<br><span style="color: #8a80b0; font-size: 11px">espelhado</span></div>
+<div style="position: absolute; left: 1235px; top: 350px; width: 160px; font-size: 13px; color: #c9bfe8; text-align: center">Sudoeste<br><span style="color: #8a80b0; font-size: 11px">espelhado</span></div>
+<div style="position: absolute; left: 45px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Parado</div>
+<div style="position: absolute; left: 195px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Parado · flutua</div>
+<div style="position: absolute; left: 345px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Caminhada 1</div>
+<div style="position: absolute; left: 495px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Caminhada 2</div>
+<div style="position: absolute; left: 645px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Caminhada 3</div>
+<div style="position: absolute; left: 795px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Caminhada 4</div>
+<div style="position: absolute; left: 945px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Dano</div>
+<div style="position: absolute; left: 1095px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Morte</div>
+<div style="position: absolute; left: 1245px; top: 642px; width: 140px; font-size: 13px; color: #c9bfe8; text-align: center">Subir de nível</div>
+<div style="position: absolute; left: 56px; top: 712px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Raio Sombrio</div><div style="font-size: 12px; color: #c9bfe8">Nível 1 · recua o cajado e dispara a energia do crânio</div></div>
+<div style="position: absolute; left: 85px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 220px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 406px; top: 712px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Drenar Vida</div><div style="font-size: 12px; color: #c9bfe8">Nível 1 · puxa a vida do inimigo e cura você</div></div>
+<div style="position: absolute; left: 435px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 570px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 756px; top: 712px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Explosão de Ossos</div><div style="font-size: 12px; color: #c9bfe8">Ergue o cajado e bate no chão: ossos irrompem em volta</div></div>
+<div style="position: absolute; left: 785px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 920px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 1106px; top: 712px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Toque da Cripta</div><div style="font-size: 12px; color: #c9bfe8">Gira a mão e solta uma névoa gelada que deixa lento</div></div>
+<div style="position: absolute; left: 1135px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 1270px; top: 954px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 56px; top: 1012px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Invocar Esqueleto</div><div style="font-size: 12px; color: #c9bfe8">Nível 30 · círculo de runas e um aliado sai do chão</div></div>
+<div style="position: absolute; left: 85px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 220px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 406px; top: 1012px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Escudo de Almas</div><div style="font-size: 12px; color: #c9bfe8">Nível 35 · almas giram em volta e absorvem dano</div></div>
+<div style="position: absolute; left: 435px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 570px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 756px; top: 1012px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Chuva de Almas</div><div style="font-size: 12px; color: #c9bfe8">Nível 45 · levita e caveiras em chamas caem do céu</div></div>
+<div style="position: absolute; left: 785px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">preparar</div><div style="position: absolute; left: 920px; top: 1254px; width: 80px; text-align: center; font-size: 11px; color: #8a80b0">lançar</div>
+<div style="position: absolute; left: 1106px; top: 1012px; width: 300px; display: flex; flex-direction: column; gap: 3px"><div style="font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #e0c0ff">Esqueleto aliado</div><div style="font-size: 12px; color: #c9bfe8">Luta ao seu lado até ser destruído ou sumir</div></div>
+<img src="/_blob/d2b29a3d65d745b25ced3a3670986280" alt="Necromante encapuzado de olhos roxos com cajado de crânio: 8 direções, parado, caminhada, dano, morte, subir de nível e as 7 magias em dois quadros cada, mais o esqueleto aliado" style="position: absolute; left: 0; top: 0; width: 1440px; height: 1280px; pointer-events: none">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1280}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
